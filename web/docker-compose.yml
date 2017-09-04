@@ -4,5 +4,5 @@ services:
   web:
     image: nvalenzuelag/web:tag
     build:
-      context: ./web
-      dockerfile: Dockerfile
+      context: ./web/web
+      dockerfile: ./Dockerfile
